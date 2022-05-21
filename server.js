@@ -17,7 +17,7 @@ NOT_COMPUTABLE =
 `
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Fake NightScout')
 })
 
 app.get('/api/v1/entries/sgv', (req, res) => {
