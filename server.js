@@ -21,6 +21,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/api/v1/entries/sgv', (req, res) => {
+  res.type('txt');
   res.send(NOT_COMPUTABLE)
 })
 
