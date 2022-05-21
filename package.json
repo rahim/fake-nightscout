@@ -1,0 +1,7 @@
+{
+  "name": "fake-nightscout",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
