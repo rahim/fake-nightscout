@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 // They're not obvious, but the tab characters inside these strings must be
 // preserved else the responses won't be parsed successfully.
-NOT_COMPUTABLE =
+EXAMPLE =
 `
 "2020-10-26T22:08:21.000Z"	1603750101000	73	"NOT COMPUTABLE"	"share2"
 "2020-10-26T22:03:21.000Z"	1603749801000	67	"NOT COMPUTABLE"	"share2"
@@ -31,7 +31,7 @@ app.get('/api/v1/status.json', (req, res) => {
 
 app.get('/api/v1/entries/sgv', (req, res) => {
   res.type('txt');
-  res.send(NOT_COMPUTABLE)
+  res.send(EXAMPLE)
 })
 
 app.listen(port, () => {
