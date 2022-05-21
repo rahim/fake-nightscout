@@ -9,8 +9,8 @@ function example() {
   sevenMinutesAgo = new Date(Date.now() - 7*60*1000)
   response =
 `
-"${twoMinutesAgo.toISOString()}"	${twoMinutesAgo.getTime()}	137	"Flat"	"share2"
-"${sevenMinutesAgo.toISOString()}"	${sevenMinutesAgo.getTime()}	139	"Flat"	"share2"
+"${twoMinutesAgo.toISOString()}"	${twoMinutesAgo.getTime()}	139	"Flat"	"share2"
+"${sevenMinutesAgo.toISOString()}"	${sevenMinutesAgo.getTime()}	137	"Flat"	"share2"
 `.trim()
   return response
 }
